@@ -6,7 +6,7 @@ UPPERCASE.IO는 BTNcafe에서 개발한 Server-Side부터 Client-Side까지 웹 
 
 Version
 -------
-1.2.13.1
+1.3
 
 Based On
 --------
@@ -19,8 +19,8 @@ Browser-side:
 Server-side:
 - Node.js (http://nodejs.org)
 - MongoDB (http://www.mongodb.org)
-- ImageMagick (http://www.imagemagick.org)
 - Redis (http://redis.io)
+- ImageMagick (http://www.imagemagick.org)
  
 License
 -------
