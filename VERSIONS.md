@@ -1,6 +1,14 @@
 VERSIONS
 ========
-1.3 (2014. 4. 14)
+now working
+- INFO 소스코드 재정비
+- 통신, DB 보안 (서버측 인증 처리 -> CHECK_ROLE 추가)
+- 분산 서버 구성 (DB, 웹 서버 모두 분산 가능 -> 수평적 확장 가능)
+- Redis를 이용한 파일 캐시, 분산 파일 서버
+- R/RF 다운로드 카운터
+- 소켓 통신 지원
+
+1.3 (2014. 4. 17)
 - UPPERCASE에서 UPPERCASE.IO로 개명
 - LOOP를 다시 COMMON으로 회귀, 성능 개선
 - IE 5.5 ~ 8에서 backgroundSize cover/contain 스타일을 적용하는 기능 추가
@@ -16,6 +24,12 @@ VERSIONS
 - REFRESH 기능 추가
 - 실시간 처리 Redis 연동
 - 멀티코어 CPU 지원으로 인한 성능 개선
+- iOS/Mac Safari에서 캐시되지 않는 버그 해결
+- 기본 BOX 폴더 내에 ERROR.html 파일을 만들면 서버에서 오류가 발생하거나 없는 리소스일 경우 해당 페이지가 출력되는 기능 추가
+- 기본 BOX 폴더 내에 AUTHED.html 파일을 만들면 __AUTH로 인증 완료시 해당 페이지가 출력되는 기능 추가
+- 기본 BOX 폴더 내에 favicon.ico 파일을 만들면 해당 파일이 파비콘으로 등록되는 기능 추가
+- Flash Policy File을 제공하는 Server의 포트를 지정하는 CONFIG.flashPolicyServerPort 설정 추가
+- isNotUsingREPL -> isUsingREPL로 변경
 
 1.2.13.1 (2014. 3. 20)
 - SERVER_CONFIG.isDBLogMode가 true일 때 DB Log 출력하도록 변경
@@ -121,16 +135,3 @@ VERSIONS
 
 1.0 (2013. 3)
 - BTNcafe의 가상현실 SNS인 Bigtown의 소스코드로부터 Full-stack Framework 부분이 분리됨
-
-ROAD MAP
---------
-now working
-- FlashPolicyFileServer 포트 변경 가능
-- INFO 소스코드 재정비
-- 소켓, DB 보안 (서버측 인증 처리 -> CHECK_ROLE 추가)
-- 클러스터링 지원
-- 분산 서버 구성 (DB, 웹 서버 모두 분산 가능 -> 수평적 확장 가능)
-- Redis를 이용한 파일 캐시, 분산 파일 서버
-- R/RF 다운로드 카운터
-
-1.4 (2013년 전반기 예상)
