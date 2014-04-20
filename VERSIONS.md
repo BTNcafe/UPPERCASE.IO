@@ -1,12 +1,17 @@
 VERSIONS
 ========
 now working
-- INFO 소스코드 재정비
 - 통신, DB 보안 (서버측 인증 처리 -> CHECK_ROLE 추가)
 - 분산 서버 구성 (DB, 웹 서버 모두 분산 가능 -> 수평적 확장 가능)
 - Redis를 이용한 파일 캐시, 분산 파일 서버
 - R/RF 다운로드 카운터
 - 소켓 통신 지원
+
+1.3.1 (2014. 4. 20)
+- 안드로이드 4.4 미만 버젼의 기본 웹 브라우저에서 통신 연결 오류 해결
+- 멀티코어 지원 일시적으로 중단
+- CONFIG.flashPolicyServerPort 기본 값 CONFIG.port + 1955로 설정
+- INFO.getBrowserInfo, bowser( https://github.com/ded/bowser )에 의존하도록 변경
 
 1.3 (2014. 4. 17)
 - UPPERCASE에서 UPPERCASE.IO로 개명
