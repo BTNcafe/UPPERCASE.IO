@@ -1,11 +1,34 @@
 VERSIONS
 ========
-now working
-- 통신, DB 보안 (서버측 인증 처리 -> CHECK_ROLE 추가)
-- 분산 서버 구성 (DB, 웹 서버 모두 분산 가능 -> 수평적 확장 가능)
-- Redis를 이용한 파일 캐시, 분산 파일 서버
-- R/RF 다운로드 카운터
-- 소켓 통신 지원
+1.3.6 (2014. 6. 12)
+- MODEL.getData, MODEL.findDat를 MODEL.get으로 통합
+- MODEL.updateData -> MODEL.update, MODEL.removeData -> MODEL.remove, MODEL.findDataSet -> MODEL.find, MODEL.countDataSet -> MODEL.count로 변경
+- MODEL.getDataWatching -> MODEL.getWatching, MODEL.findDataSetWatching -> MODEL.findWatching으로 변경
+- DOM.children -> DOM.c, DOM.removeAllChildren -> DOM.empty로 변경
+
+1.3.5 (2014. 5. 30)
+- 멀티코어 지원
+- findDataSet에서 sort를 지정하지 않으면 기본적으로 createTime 순으로 정렬되게 변경
+- DB.getData, DB.findDat를 DB.get으로 통합
+- DB.updateData -> DB.update, DB.removeData -> DB.remove, DB.findDataSet -> DB.find, DB.countDataSet -> DB.count로 변경
+
+1.3.4 (2014. 5. 19)
+- 데이터베이스에 데이터 저장 시 __RANDOM_KEY 자동 생성
+
+1.3.3 (2014. 5. 13)
+- UPPERCASE.JS 1.4 (https://bitbucket.org/uppercaseio/uppercase.js) 포함
+- Windows 8 기반 태블릿 터치 대응
+- CSS position: fixed를 지원하지 않는 브라우저에서는 시뮬레이션
+- IE에서의 DOM.getLeft, DOM.getTop 버그 개선
+- DOM.addAfterShowProc/DOM.addAfterRemoveProc를 DOM.addShowHandler/DOM.addRemoveHandler로 변경
+- INFO.checkIsSupportFixed 제거, fixed 기능을 제공하지 않는 브라우저는 에뮬레이트
+- INFO.checkIsSupportCanvas 제거, canvas를 제공하지 않는 IE8, 7, 6 버젼에서는 FlashCanvas로 대체
+- UTIL/CALENDAR에서 파라미터가 없으면 현재 시각을 기준으로 작동되도록 변경
+- BROWSER-UTIL/ANIMATE 기본 애니메이션 작동 시간 1초에서 0.5초로 변경
+
+1.3.2
+- EVENT에 double tap 이벤트 추가
+- IE11 지원
 
 1.3.1 (2014. 4. 20)
 - 안드로이드 4.4 미만 버젼의 기본 웹 브라우저에서 통신 연결 오류 해결
