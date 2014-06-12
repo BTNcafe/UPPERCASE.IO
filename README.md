@@ -6,7 +6,7 @@ UPPERCASE.IO는 BTNcafe에서 개발한 Server-Side부터 Client-Side까지 웹 
 
 Version
 -------
-1.3.1
+1.3.6
 
 Based On
 --------
@@ -14,7 +14,7 @@ Based On
 - CommonJS Modules/1.0
 
 Browser-side:
-- IE 5.5를 포함한 현존하는 거의 모든 브라우저
+- IE 6를 포함한 현존하는 거의 모든 브라우저
 
 Server-side:
 - Node.js (http://nodejs.org)
