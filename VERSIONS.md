@@ -1,5 +1,9 @@
 VERSIONS
 ========
+1.3.7 (2014. 6. 16)
+- SERVER_CONFIG -> NODE_CONFIG로 변경
+- DB.get 및 MODEL.get에 isRandom : true 로 random한 값을 가져올 수 있음
+
 1.3.6 (2014. 6. 12)
 - MODEL.getData, MODEL.findDat를 MODEL.get으로 통합
 - MODEL.updateData -> MODEL.update, MODEL.removeData -> MODEL.remove, MODEL.findDataSet -> MODEL.find, MODEL.countDataSet -> MODEL.count로 변경
