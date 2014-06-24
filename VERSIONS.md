@@ -1,6 +1,16 @@
 VERSIONS
 ========
-1.3.7 (2014. 6. 16)
+1.3.8 (2014. 6. 24)
+- OOP 개선 (OOP-EXAMPLE 참고)
+- 통신 버그 개선
+- 에러 객체가 없을 때는 로그 표시 제한
+- MODEL 설정에서 더 이상 propertyNamesForNewEvent 필요 없음
+- create config에 데이터를 초기화하는 initData 기능 추가
+
+1.3.7.2 (2014. 6. 20)
+- MAIN(m, workerData, funcs)로 멀티코어 처리 가능 (funcs에는 다른 프로세스와 통신할 수 있는 on과 broadcast가 존재)
+- 버그 개선
+- 오류 발생시 로그 출력
 - SERVER_CONFIG -> NODE_CONFIG로 변경
 - DB.get 및 MODEL.get에 isRandom : true 로 random한 값을 가져올 수 있음
 
