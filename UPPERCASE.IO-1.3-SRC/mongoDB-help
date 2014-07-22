@@ -1,0 +1,5 @@
+db backup : mongodump --host 127.0.0.1
+db restore : mongorestore --db Bigtown [path]
+
+데이터베이스에서 admin에 설정된 사용자가 없으면 인증없이 localhost에서 접근할 수 있습니다.
+admin에서 user를 만들어주고, 원하는 db에도 user를 만들어주어야합니다.

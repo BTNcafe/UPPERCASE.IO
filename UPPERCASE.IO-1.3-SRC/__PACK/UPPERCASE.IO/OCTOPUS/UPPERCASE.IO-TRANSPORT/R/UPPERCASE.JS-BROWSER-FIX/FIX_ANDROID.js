@@ -1,0 +1,1 @@
+RUN(function(){"use strict";var D=function(D){LOAD(__FIX_SCRIPT_FOLDER_PATH+"/ANDROID/"+D+".js")};global.ANDROID={},/Android\s([0-9\.]*)/.exec(navigator.userAgent),ANDROID.version=REAL(RegExp.$1),D("BROWSER/INFO"),ANDROID.version<3&&D("BROWSER/DOM/STYLE/ADD_STYLE")});
