@@ -1,5 +1,14 @@
 VERSIONS
 ========
+1.3.8.3 (2014. 7. 14)
+- isDevMode가 true일 때는 캐싱을 하지 않도록 변경
+
+1.3.8.2 (2014. 7. 9)
+- REMOVE와 REMOVE_AT을 통합 (REMOVE에서 key를 넘기면 REMOVE_AT과 같이 동작)
+
+1.3.8.1 (2014. 7. 6)
+- onNewWatching 등에서의 updateHandler가 작동하지 않는 문제 해결
+
 1.3.8 (2014. 6. 24)
 - OOP 개선 (OOP-EXAMPLE 참고)
 - 통신 버그 개선
