@@ -1,4 +1,6 @@
-![ScreenShot](http://uppercase.io/UPPERCASE.IO/R/logo.png)
+이 저장소는 UPPERCASE.IO 1.3의 소스코드를 저장하기 위한 곳입니다. UPPERCASE.IO 1.4부터 https://github.com/UPPERCASEIO/UPPERCASE.IO 로 저장소를 이전하였습니다. 참고하시기 바랍니다.
+
+![ScreenShot](http://1.3.uppercase.io/UPPERCASE.IO/R/logo.png)
 =========
 UPPERCASE.IO는 BTNcafe에서 개발한 Server-Side부터 Client-Side까지 웹 어플리케이션을 개발하는데 필요한 전 범위를 아우르는 Full Stack 프레임워크입니다.
 서버, 통신, 데이터베이스 처리 기술을 포함하고 있으며 브라우저의 기능을 wrapping합니다.
@@ -6,7 +8,7 @@ UPPERCASE.IO는 BTNcafe에서 개발한 Server-Side부터 Client-Side까지 웹 
 
 Version
 -------
-1.3.8
+1.3.8.3
 
 Based On
 --------
