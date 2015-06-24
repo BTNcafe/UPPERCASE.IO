@@ -1,4 +1,4 @@
-이 저장소는 UPPERCASE.IO 1.3의 소스코드를 저장하기 위한 곳입니다. UPPERCASE.IO 1.4부터 https://github.com/UPPERCASEIO/UPPERCASE.IO 로 저장소를 이전하였습니다. 참고하시기 바랍니다.
+이 저장소는 UPPERCASE.IO 1.3의 소스코드를 저장하기 위한 곳입니다. UPPERCASE.IO 1.4부터 https://github.com/Hanul/UPPERCASE.IO 로 저장소를 이전하였습니다. 참고하시기 바랍니다.
 
 ![ScreenShot](http://1.3.uppercase.io/UPPERCASE.IO/R/logo.png)
 =========
